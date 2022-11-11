@@ -12,7 +12,7 @@
 
 
 
-::root {
+:root {
     font-size: 16px;
 
     --light-Green: rgb(109, 225, 25);
@@ -30,6 +30,23 @@
     }
 
 
+    .wavingg {
+        animation: waving 0.5s ease-in-out;
+    transform-origin: bottom;
+    }
+
+
+        .build-mode {
+            display: inline-flex;
+            background: lightgreen;
+            color: black;
+            width: 100%;
+            height: 2ch;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+
+        }
 
     @keyframes entering {
         0%{ transform: translateY(40px) scale(0);}
@@ -81,6 +98,9 @@
 #hand{
     fill: var(--light-Green);
 }
+
+
+
 
 .hand-area:hover {
     animation: waving 0.5s ease-in-out;
@@ -160,6 +180,22 @@
     max-width: 30px;
 }
 
+
+/* ******* SECCIONES ******* */
+
+.sect-title {
+
+    margin: 12px;
+
+}
+
+
+.sect-para {
+
+    margin: 12px;
+    padding: 4px;
+    width: clamp(40%, 80%, 90%)
+}
 
 
 

@@ -4,6 +4,7 @@ const strToSlice = document.querySelectorAll('.sliceMe');
 const title = document.querySelector('.title');
 const main = document.querySelector('#main-container');
 
+
 // Take an element and converts each word (spaces included) in a Span tag.
 function strSlicing(element){
 
@@ -77,6 +78,10 @@ arrowButtonOne.addEventListener('mouseout', () => {
 
 }
 );
+
+
+
+
 
 
 
